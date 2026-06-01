@@ -46,3 +46,44 @@ const id=Symbol('123')
 const idd=Symbol('123')
 
 console.log(id===idd);
+
+
+const arr=['iya','ina','siya']
+console.log(arr);
+
+let myObj=
+{
+    name:'riya',
+    age:21,
+}
+console.log(myObj);
+
+//keys
+const person={name:"riya",age:22}
+console.log(Object.keys(person))
+
+console.log(Object.keys(person).length)
+
+console.log(Object.keys(person).includes("email"))
+
+
+let email="riya@gmail.com"
+
+let emaill=email
+emaill="abc@gmail.com"
+
+console.log(email);
+console.log(emaill);
+
+//heap
+let userOne={
+    email:"abc@gmail.com",
+    pass:"abc123"
+}
+
+let userTwo=userOne
+
+userTwo.email=("xyz@google.com")
+
+console.log(userOne.email);
+console.log(userTwo.email);
